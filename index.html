@@ -279,8 +279,6 @@ footer p{max-width:820px;margin:0 auto 10px;text-align:center}
 // ===== EDIT THESE SETTINGS =====
 var PRICE_TEXT="₦5,000";
 var CHECKOUT_URL="https://selar.com/49255qn91d";            // Paystack/Selar payment link (leave empty to hide online option)
-var WHATSAPP="2348155601961";                // digits only with country code, e.g. 2348012345678
-var BANK={name:"Jesse Isa Marcus",bank:"Zenith Bank",number:"2123372905"};  // account name, bank name, account number
 // ================================
 document.querySelectorAll("[data-price]").forEach(function(e){e.textContent=PRICE_TEXT});
 try{document.getElementById("price").textContent=PRICE_TEXT;document.getElementById("yr").textContent=new Date().getFullYear()}catch(e){}
