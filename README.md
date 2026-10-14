@@ -278,7 +278,8 @@ footer p{max-width:820px;margin:0 auto 10px;text-align:center}
 <script>
 // ===== EDIT THESE SETTINGS =====
 var PRICE_TEXT="₦5,000";
-var CHECKOUT_URL="https://selar.com/49255qn91d";            // Paystack/Selar payment link (leave empty to hide online option)
+var CHECKOUT_URL="https://selar.com/49255qn91d";           
+// Paystack/Selar payment link (leave empty to hide online option)
 // ================================
 document.querySelectorAll("[data-price]").forEach(function(e){e.textContent=PRICE_TEXT});
 try{document.getElementById("price").textContent=PRICE_TEXT;document.getElementById("yr").textContent=new Date().getFullYear()}catch(e){}
